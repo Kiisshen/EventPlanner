@@ -24,7 +24,7 @@ app.listen(5038, () => {
     console.log("Server is running on port 5038");
 });
 
-const CONNECTION_STRING = 'mongodb+srv://Kiisshhen:password@kiisshensolutions.a3jvdbj.mongodb.net/PlanTogether?retryWrites=true&w=majority';
+const CONNECTION_STRING = 'yourmongodbconnectionstring';
 mongoose.connect(CONNECTION_STRING, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
