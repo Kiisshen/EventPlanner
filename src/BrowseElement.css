@@ -1,0 +1,37 @@
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+.eventCont {
+  margin-bottom: 1rem;
+}
+
+.event {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border: 2px solid #8084cb;
+  border-radius: 3%;
+  display: flex;
+  flex-direction: column;
+}
+
+hr {
+  width: 20rem;
+  margin: 0;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  padding: 0;
+  color: #8084cb;
+  height: 0.05rem;
+}
+
+.eventsTitle {
+  margin: 0;
+  padding: 0;
+}
